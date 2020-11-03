@@ -2,6 +2,4 @@ theme: jekyll-theme-minimal
 title: ARG at the ATDC
 logo: /assets/img/arg.jpg
 description: I'm the Marketing Catalyst (startup coach) at the <a href="http://atdc.org">ATDC</a>. This a collection of the content and projects I've created for the ATDC.
-<br />
-<a class="btn btn-warning" href="https://calendly.com/adam-gautsch/one-on-one-with-yourname" role="button">Let's Do Coffee (Virtually)</a>
 show_downloads: false
