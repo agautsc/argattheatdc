@@ -20,4 +20,4 @@ layout: default
 <p>20-30 minute presentation followed by Q&A</p>
 
 <h1>Sign Up To Attend</h1>
-<div class="typeform-widget" data-url="https://form.typeform.com/to/BKfQ0nLS" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<div class="typeform-widget" data-url="https://form.typeform.com/to/BKfQ0nLS" data-transparency="50" style="width: 100%; height: 1500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
