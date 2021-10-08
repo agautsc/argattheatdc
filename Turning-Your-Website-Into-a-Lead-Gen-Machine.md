@@ -5,7 +5,7 @@ layout: default
 <h1>Turning Your Website Into a Lead Gen Machine</h1>
 <h2>A Hubspot Talk</h2>
 
-<iframe width="560" height="315" src="https://youtu.be/embed/eECwjNRuykg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eECwjNRuykg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p><a href="https://www.linkedin.com/in/dg3/" title="Dan's LinkedIn profile">Dan Gallagher</a> of <a href="https://www.hubspot.com/" title="Hubspot main website">Hubspot</a> joined the <a href="https://atdc.org/" title="ATDC's main website">ATDC</a> to give 60-minutes tour of turning your website into a lead gen machine.</p>
 
