@@ -9,7 +9,7 @@ layout: default
 <p>Please excuse the mess. I'm building out this page. In the meantime, feel free to click on all these links.</p>
 
 <ul>
-<li><a class="btn btn-warning" href="https://calendly.com/gatech_adam_gautsch/one-on-one-with-yourname" role="button">Chat with me (Virtually)</a></li>
+<li><a class="btn btn-warning" href="https://calendly.com/gatech_adam_gautsch/one-on-one-with-adam-gautsch" role="button">Chat with me (Virtually)</a></li>
 <li><a href="https://atdc.org/community/" title="Join the ATDC">ATDC's Complete Calendar</a></li>
 </ul>
 
