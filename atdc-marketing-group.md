@@ -2,17 +2,11 @@
 layout: default
 ---
 
-<h1>ATDC Marketing Group</h1>
+<h1>ATDC Growth Events</h1>
+<h2>July 2023</h2>
+<h3>For Portfolio Companies</h3>
+<p><a href="https://portal.atdc.org/s/community-event?id=a1Y7V00000b5m3VUAQ" title="You need an ATDC account to RSVP">Marketing Roundtable, July 20th, 2pm. Hybrid.</a></p>
 
-<p>Every month we get together and talk shop. In between meetings, we share tips, tricks, and advice in our very own Basecamp project.</p>
+<p><a href="https://portal.atdc.org/s/community-event?id=a1Y7V00000b5m5MUAQ" title="You need an ATDC account to RSVP to this too">Sales Rountable, July 27th, 11am. Hybrid</a></p>
 
-<p>Interested? Sign up to get an invite.</p>
-
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "21325422",
-	formId: "8eaacdd3-f634-41e3-97db-f14d7fbe9464"
-});
-</script>
+<p>If logging in is too much. Just shoot me an email at <a href="mailto:adam.gautsch@atdc.org" title="Your email client will open. You've been warned.">adam.gautsch@atdc.org</p></p>
