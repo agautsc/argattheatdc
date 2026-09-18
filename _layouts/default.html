@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="Adam Gautsch coaches tech startups at the ATDC at Georgia Tech.">
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/img/arg.jpg' | relative_url }}">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="Adam Gautsch coaches tech startups at the ATDC at Georgia Tech.">
+<meta property="og:image" content="{{ '/assets/img/arg.jpg' | absolute_url }}">
+<meta property="og:type" content="website">
+<style>
+  :root {
+    --navy: #003057;
+    --gold: #b3a369;
+    --bg: #ffffff;
+    --surface: #f7f8fa;
+    --text: #1b1f24;
+    --muted: #5a626b;
+    --border: #e1e4e8;
+    --accent: var(--navy);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1116;
+      --surface: #161b22;
+      --text: #e6edf3;
+      --muted: #9aa4b0;
+      --border: #2a313a;
+      --accent: var(--gold);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1116;
+    --surface: #161b22;
+    --text: #e6edf3;
+    --muted: #9aa4b0;
+    --border: #2a313a;
+    --accent: var(--gold);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 56px 16px 72px;
+  }
+
+  header.site {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header.site h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+  }
+  header.site p {
+    margin: 0;
+    color: var(--muted);
+  }
+  header.site a { color: inherit; }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding: 28px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .card:hover, .card:focus-visible {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: 0 6px 20px rgba(0, 48, 87, .08);
+  }
+  .card svg {
+    width: 44px;
+    height: 44px;
+    color: var(--accent);
+    flex: none;
+  }
+  .card h2 {
+    margin: 0;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+  }
+  .card p {
+    margin: 0;
+    font-size: .9rem;
+    color: var(--muted);
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    margin-top: 48px;
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+  }
+  .bio img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border);
+  }
+  .bio p {
+    margin: 0;
+    max-width: 44ch;
+    color: var(--muted);
+  }
+  .bio a {
+    color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  /* Interior article pages */
+  .wrap > h1, .wrap > h2, .wrap > h3 { letter-spacing: -0.01em; line-height: 1.25; }
+  .wrap > h1 { font-size: 1.9rem; margin: 0 0 .25em; }
+  .wrap > h2 { font-size: 1.25rem; color: var(--muted); font-weight: 600; margin: 0 0 1.25em; }
+  .wrap > h3 { font-size: 1.05rem; margin: 2em 0 .5em; }
+  .wrap > p, .wrap > ul, .wrap > ol { max-width: 68ch; }
+  .wrap a:not(.card) { color: var(--accent); }
+  .wrap iframe, .wrap img { max-width: 100%; }
+  .wrap iframe { aspect-ratio: 16 / 9; height: auto; border: 0; border-radius: 8px; }
+
+  @media (max-width: 720px) {
+    .wrap { padding-top: 36px; }
+    .cards { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    {{ content }}
+  </div>
+</body>
+</html>
